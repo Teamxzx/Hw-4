@@ -1,0 +1,72 @@
+body {
+    font-family: "Sofia", sans-serif;
+    font-size: 100%;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    margin: 10px 0;
+    text-align: center;
+}
+
+body.red-theme {
+    background-color: #ffe5e5;
+    color: darkred;
+}
+
+body.blue-theme {
+    background-color: #ddeeff;
+    color: #003366;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+.pink-cell {
+    background-color: pink;
+}
+
+.green-cell {
+    background-color: rgb(0, 255, 42);
+}
+
+.gray-cell {
+    background-color: lightgray;
+}
+
+.orange-cell {
+    background-color: orange;
+}
+
+.blue-cell {
+    background-color: rgb(0, 238, 255);
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
